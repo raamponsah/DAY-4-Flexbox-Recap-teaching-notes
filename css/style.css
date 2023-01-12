@@ -1,0 +1,59 @@
+:root{
+    font-size: 1.5em;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: yellow;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    height: 1000px;
+    flex-flow: row-reverse wrap;
+}
+
+
+
+.child{
+    width:200px;
+    height: 80px;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+.one{
+    background:yellow;
+    order:9
+}
+
+.two{
+    background-color: burlywood;
+}
+
+.three{
+    background-color: blueviolet;
+    flex-grow:0.25;
+}
+
+.four{
+    background-color: cadetblue;
+    order:12
+}
+
+.five{
+    background-color: chartreuse;
+}
+
+.six{
+    background-color: aqua;
+}

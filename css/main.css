@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section.parent{
+    background:#663399;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    gap:80px;
+    flex-flow:row wrap;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background:yellow;
+}
+
+
+/* Pseudo Selector */
+.box:nth-child(3){
+    background: red;
+    flex-grow:5;
+}
+
+.box:last-child{
+    background: green;
+    flex-grow:2;
+}
+
+.box:nth-child(2){
+    background: blue;
+    flex-grow:3;
+}
+
+
+.box:hover{
+    background: #fff;
+    color: #000;
+}
